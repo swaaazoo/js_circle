@@ -73,7 +73,7 @@
 	function mainLoop()
     {
     	//create a new circle of radius 15 every time the loop is run
-    	createCircle(Math.random()*document.width, Math.random()*document.height, 15); 
+    	createCircle(Math.random()*document.body.clientWidth, Math.random()*document.body.clientHeight, 15);
     	
     	//update the circle size and background color
     	updateCircles();	
